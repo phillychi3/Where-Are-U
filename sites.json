@@ -1,0 +1,30 @@
+{
+    "twitter":{
+        "url":"https://twitter.com",
+        "userurl":"https://twitter.com/<!@#>",
+        "type": "social_software ",
+        "methods" : "get",
+        "erroe_mod":"msg",
+        "error_msg": "This account doesn’t exist",
+        "needjs": true
+    },
+    "instagram":{
+        "url":"https://www.instagram.com",
+        "userurl":"https://www.instagram.com/<!@#>",
+        "type": "social_software ",
+        "methods" : "get",
+        "erroe_mod":"msg",
+        "error_msg": "Nothing found",
+        "needjs": true,
+        "disable": true
+    },
+    "gamer":{
+        "url":"https://home.gamer.com.tw",
+        "userurl":"https://home.gamer.com.tw/homeindex.php?owner=<!@#>",
+        "type": "social_software ",
+        "methods" : "get",
+        "erroe_mod":"msg",
+        "error_msg": "查詢失敗",
+        "needjs": true
+    }
+}

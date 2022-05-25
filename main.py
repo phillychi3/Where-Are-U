@@ -1,6 +1,6 @@
 import argparse
 import json
-
+import threading
 import requests
 from ColorStr import parse
 from fake_useragent import UserAgent
@@ -73,7 +73,9 @@ def main():
             try:
                 data[i]["disable"]
             except:
-                download(i)
+                t = threading.Thread(target = download(i))
+                t.start()                
+                # download(i)
     if args.image != None:
         print("Image: " + args.image)
 

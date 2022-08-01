@@ -26,5 +26,59 @@
         "erroe_mod":"msg",
         "error_msg": "查詢失敗",
         "needjs": true
+    },
+    "github":{
+        "url":"https://github.com/",
+        "userurl":"https://github.com/<!@#>",
+        "type": "programme ",
+        "methods" : "get",
+        "erroe_mod":"stauts",
+        "error_msg": "",
+        "needjs": false
+    },
+    "kktix":{
+        "url":"https://kktix.com",
+        "userurl":"https://kktix.com/user/<!@#>",
+        "type": "shop ",
+        "methods" : "get",
+        "erroe_mod":"stauts",
+        "error_msg": "",
+        "needjs": false
+    },
+    "linkedin":{
+        "url":"https://www.linkedin.com/in/",
+        "userurl":"https://www.linkedin.com/in/<!@#>",
+        "type": "social_software ",
+        "methods" : "get",
+        "erroe_mod":"stauts",
+        "error_msg": "",
+        "needjs": false
+    },
+    "pinterest":{
+        "url":"https://www.pinterest.com/",
+        "userurl":"https://www.pinterest.com/<!@#>",
+        "type": "social_software ",
+        "methods" : "get",
+        "erroe_mod":"stauts",
+        "error_msg": "",
+        "needjs": false
+    },
+    "cga":{
+        "url":"https://vs.cga.gg",
+        "userurl":"https://vs.cga.gg/user/<!@#>",
+        "type": "contest ",
+        "methods" : "get",
+        "erroe_mod":"stauts",
+        "error_msg": "",
+        "needjs": false
+    },
+    "zhihu":{
+        "url":"https://www.zhihu.com",
+        "userurl":"https://www.zhihu.com/people/<!@#>",
+        "type": "social_software ",
+        "methods" : "get",
+        "erroe_mod":"stauts",
+        "error_msg": "",
+        "needjs": false
     }
 }

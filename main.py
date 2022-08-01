@@ -18,7 +18,7 @@ def geturl(url,name):
 def isfind(sitename,url):
     print(parse(f'§w[§g✓§w] §g{sitename} : §w{url}'))
 def nofind(sitename):
-    print(parse(f'§w[§g✗§w] §g{sitename} : §yNOT FOUND'))
+    print(parse(f'§w[§r✗§w] §r{sitename} : §yNOT FOUND'))
 
 def download(url):
     ua = UserAgent()  

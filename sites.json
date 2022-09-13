@@ -80,5 +80,14 @@
         "erroe_mod":"stauts",
         "error_msg": "",
         "needjs": false
+    },
+    "codewars":{
+        "url":"https://www.codewars.com",
+        "userurl":"https://www.codewars.com/users/<!@#>",
+        "type": "programme ",
+        "methods" : "get",
+        "erroe_mod":"stauts",
+        "error_msg": "",
+        "needjs": false
     }
 }

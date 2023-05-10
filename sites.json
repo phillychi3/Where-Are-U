@@ -1,93 +1,73 @@
 {
     "twitter":{
         "url":"https://twitter.com",
-        "userurl":"https://twitter.com/<!@#>",
+        "userurl":"https://nitter.net/<!@#>",
+        "tureurl":"https://twitter.com/<!@#>",
         "type": "social_software ",
         "methods" : "get",
-        "erroe_mod":"msg",
-        "error_msg": "This account doesn’t exist",
-        "needjs": true
+        "pair":"statuscode(r.status_code) and 'Tweets' in r.text"
     },
     "instagram":{
         "url":"https://www.instagram.com",
         "userurl":"https://www.instagram.com/<!@#>",
         "type": "social_software ",
         "methods" : "get",
-        "erroe_mod":"msg",
-        "error_msg": "Nothing found",
-        "needjs": true,
-        "disable": true
+        "pair":"statuscode(r.status_code) and '| Instagram</title>' in r.text"
     },
     "gamer":{
         "url":"https://home.gamer.com.tw",
         "userurl":"https://home.gamer.com.tw/homeindex.php?owner=<!@#>",
         "type": "social_software ",
         "methods" : "get",
-        "erroe_mod":"msg",
-        "error_msg": "查詢失敗",
-        "needjs": true
+        "pair":"r.text.find('查詢失敗') == -1"
     },
     "github":{
         "url":"https://github.com/",
         "userurl":"https://github.com/<!@#>",
         "type": "programme ",
         "methods" : "get",
-        "erroe_mod":"stauts",
-        "error_msg": "",
-        "needjs": false
+        "pair":"statuscode(r.status_code)"
     },
     "kktix":{
         "url":"https://kktix.com",
         "userurl":"https://kktix.com/user/<!@#>",
         "type": "shop ",
         "methods" : "get",
-        "erroe_mod":"stauts",
-        "error_msg": "",
-        "needjs": false
+        "pair":"statuscode(r.status_code)"
     },
     "linkedin":{
         "url":"https://www.linkedin.com/in/",
         "userurl":"https://www.linkedin.com/in/<!@#>",
         "type": "social_software ",
         "methods" : "get",
-        "erroe_mod":"stauts",
-        "error_msg": "",
-        "needjs": false
+        "pair":"statuscode(r.status_code)"
     },
     "pinterest":{
         "url":"https://www.pinterest.com/",
         "userurl":"https://www.pinterest.com/<!@#>",
         "type": "social_software ",
         "methods" : "get",
-        "erroe_mod":"stauts",
-        "error_msg": "",
-        "needjs": false
+        "pair":"statuscode(r.status_code)"
     },
     "cga":{
         "url":"https://vs.cga.gg",
         "userurl":"https://vs.cga.gg/user/<!@#>",
         "type": "contest ",
         "methods" : "get",
-        "erroe_mod":"stauts",
-        "error_msg": "",
-        "needjs": false
+        "pair":"statuscode(r.status_code)"
     },
     "zhihu":{
         "url":"https://www.zhihu.com",
         "userurl":"https://www.zhihu.com/people/<!@#>",
         "type": "social_software ",
         "methods" : "get",
-        "erroe_mod":"stauts",
-        "error_msg": "",
-        "needjs": false
+        "pair":"statuscode(r.status_code)"
     },
     "codewars":{
         "url":"https://www.codewars.com",
         "userurl":"https://www.codewars.com/users/<!@#>",
         "type": "programme ",
         "methods" : "get",
-        "erroe_mod":"stauts",
-        "error_msg": "",
-        "needjs": false
+        "pair":"statuscode(r.status_code)"
     }
 }
